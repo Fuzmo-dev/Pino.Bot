@@ -1,0 +1,22 @@
+body {background-color: rgb(36, 36, 37);}
+
+body{color: aliceblue;}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+
+body {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color:rgb(19, 20, 20);
+}
