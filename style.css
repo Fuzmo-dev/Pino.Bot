@@ -1,10 +1,7 @@
-body {background-color: rgb(33, 33, 34);}
+body {background-color: rgb(47,49,54);}
 
 body{color: aliceblue;}
 
-a {
-    color: rgb(1, 200, 250);
-}
 
 
 body {
@@ -14,9 +11,25 @@ body {
     align-items: center;
     flex-direction: column;
 }
-ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color:rgb(21, 22, 22);
+
+
+a  {
+    color: rgb(11, 167, 245);
+}
+
+.embed{
+    background-color: rgb(88, 101, 242);
+    color: ivory;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.redembed{
+background-color: rgb(237,66,69);
+    color: ivory;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
 }
