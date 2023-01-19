@@ -38,6 +38,19 @@ background-color: rgb(237,66,69);
 
 div  {
     background-color: rgb(44 47 51);
+    color: rgb(186, 184, 184);
+}
+
+
+
+
+
+ul.dropdown-menu {
+    background-color: rgb(47,49,54);
+    color: #ffffff;
+}
+
+.dropdown-menu li a {
     color: white;
 }
 
