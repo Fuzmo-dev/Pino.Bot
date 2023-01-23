@@ -37,7 +37,7 @@ background-color: rgb(237,66,69);
 
 
 div  {
-    background-color: rgb(44 47 51);
+    background-color: rgb(45, 47, 53);
     color: rgb(186, 184, 184);
 }
 
@@ -53,4 +53,6 @@ ul.dropdown-menu {
 .dropdown-menu li a {
     color: white;
 }
+
+
 
