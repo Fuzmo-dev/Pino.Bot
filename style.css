@@ -1,6 +1,17 @@
-body {background-color: rgb(47,49,54);}
+body {
+
+    
+
+background-image: url("./Screenshot_20230201_164212.png");
+background-repeat: repeat;
+background-position: center;
+background-size: cover;
+background-color: rgb(47,49,54);
+}
+
 
 body{color: aliceblue;}
+
 
 
 
@@ -54,5 +65,9 @@ ul.dropdown-menu {
     color: white;
 }
 
+
+.mytoast {
+    background-color:rgb(33, 35, 39) ;
+}
 
 
