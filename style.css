@@ -1,17 +1,18 @@
+
+
+
+
+
 body {
+    background-image: url("./background.png");
+    background-repeat: repeat;
+    background-color: #101016;
+        background-position: center;
+        background-size: cover;
 
-    
-
-background-image: url("./Screenshot_20230201_164212.png");
-background-repeat: repeat;
-background-position: center;
-background-size: cover;
-background-color: rgb(47,49,54);
-}
-
+  }
 
 body{color: aliceblue;}
-
 
 
 
@@ -21,6 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
 }
 
 
@@ -29,27 +31,22 @@ a  {
 }
 
 .embed{
-    background-color: rgb(88, 101, 242);
+    background-color: #ff4f4f;
     color: ivory;
     font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 18px;
+    border-radius: 10px;
 
 }
 
-.redembed{
-background-color: rgb(237,66,69);
-    color: ivory;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-}
+
 
 
 
 div  {
-    background-color: rgb(45, 47, 53);
-    color: rgb(186, 184, 184);
+    background-color: rgb(40,43,48);
+    color: rgb white;
+    border-radius: 5px;
 }
 
 
@@ -57,17 +54,97 @@ div  {
 
 
 ul.dropdown-menu {
-    background-color: rgb(47,49,54);
+    background-color: rgb(30,33,36);
     color: #ffffff;
+    border-radius: 5px;
 }
 
 .dropdown-menu li a {
     color: white;
+    border-radius: 3px;
 }
+
+
+.dembed {
+background-color: rgb(45, 48, 52);
+color: ivory;
+font-weight: bold;
+font-size: 39px;
+border-radius: 5px;
+}
+
+
 
 
 .mytoast {
-    background-color:rgb(33, 35, 39) ;
+  background-color:rgb(33, 35, 39) ;
+  border-radius: 5px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+  }
+
+  section{
+    min-height: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section:nth-child(1){
+    color: #e0ffff;
+    }
+
+
+
+  section .container{
+    margin: 100px;
+  }
+  section h1{
+    font-size: 3rem;
+    margin: 20px;
+  }
+  section h2{
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  section .text-container{
+     display: flex;
+  }
+  section .text-container .text-box{
+    margin: 20px;
+    padding: 20px;
+    background: rgb(30,33,36);
+  }
+  section .text-container .text-box h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 900px){
+    section h1{
+      font-size: 2rem;
+      text-align: center;
+    }
+    section .text-container{
+      flex-direction: column;
+    }
+  }
+  
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
