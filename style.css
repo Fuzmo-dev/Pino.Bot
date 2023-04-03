@@ -26,12 +26,14 @@ body {
 }
 
 
+
+
 a  {
     color: rgb(11, 167, 245);
 }
 
 .embed{
-    background-color: #ff4f4f;
+    background-color: #5865f2;
     color: ivory;
     font-weight: bold;
     font-size: 18px;
@@ -44,7 +46,6 @@ a  {
 
 
 div  {
-    background-color: rgb(40,43,48);
     color: rgb white;
     border-radius: 5px;
 }
@@ -150,3 +151,10 @@ border-radius: 5px;
 
   ul.custom li, ol.custom li {margin-top: 24px;}
   ul.custom >:last-child {padding-bottom: 24px;}
+
+  li::marker {
+    font-size: 1.2em;
+    color: #e7e7ee;
+
+}
+
