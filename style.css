@@ -153,12 +153,9 @@ border-radius: 5px;
   ul.custom >:last-child {padding-bottom: 24px;}
 
   li::marker {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #3c8aff;
 
 }
 
-h4{
-  text-underline-offset: ;
-}
 
